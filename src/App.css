@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.todo-container{
+  background-image: url('./background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;  
+}
+.custom-toast-container .Toastify__toast-body {
+  border-bottom-color: green;
+}
+
+
+
+.cardB{
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50rem;
+  height: 90vh;
+  display: flex;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 1rem;
+  position: relative;
+}
+
+.card-body h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.plus-icon {
+  
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 6;
+  color: rgb(51, 189, 154);
+  cursor: pointer;
+
+  
+}
+
+
+.input-container{
+  font-size: 30px;
+  display: flext;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  width: 40%;
+  height: 50%;
+}
+
+
+.MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline {
+  border-color:rgb(90, 90, 248);
+}
+
+.show  {
+  width: 45rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 5rem;
+}
+
+.note{
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: 100;
+  padding: 10rem;
+}
+
+.card{
+
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  border-color: rgb(94, 83, 83);
+
+}
+
+.card-header .card-body{
+  padding: 0px;
+  margin: 0px;
+}
